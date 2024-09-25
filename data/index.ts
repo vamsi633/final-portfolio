@@ -1,14 +1,14 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Currently i am pursuing my masters in Computer Science at Santa Clara University",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Always intrested in building web Applications and mobile apps",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,27 +72,27 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Live-Docs",
+    des: "Live-Docs allows multiple people to work and edit a single document with live features like interacting with each other with live cursor , live invitations and notifications,commenting,reacting,tagging all these features were implemented using live-blocks,Next js,React and clerk for authentication",
+    img: "/p11.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/ll1.svg"],
+    link: "https://live-blocks-iota.vercel.app",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "Imaginify AI Saas App",
+    des: "iImaginify allows users to edit images , it provids features ike Object removal, generative fill ,fill color,enhance the image etc.",
+    img: "/p22.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/cld.png", "/c.svg","/md.svg"],
+    link: "https://imaginify-seven-virid.vercel.app",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "WebSite Summarizer Using Rapid API and React",
+    des: "This website helps users to get know what any website is about, When you provide the link of any website it will summarize what is that particlar web page is about.",
+    img: "/sum.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg","/rapid.svg"],
+    link: "https://web-context-webapplication.vercel.app",
   },
   {
     id: 4,
@@ -100,8 +100,16 @@ export const projects = [
     des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    link: "https://iphoneapp-ewe.netlify.app",
   },
+  {
+  id: 5,
+  title: "Nike Sneakers",
+  des: "Frontend web application of a nike store",
+  img: "/ssc.png",
+  iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+  link: "https://nike-sneakers-store.netlify.app",
+},
 ];
 
 export const testimonials = [
@@ -205,13 +213,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:'https://github.com/vamsi633?tab=repositories'
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:'https://x.com/vamsi_nouluri?t=LHbX6jJB-AipFXOYZ3y0hw&s=09'
   },
   {
     id: 3,
     img: "/link.svg",
+    link:'https://www.linkedin.com/in/vamsikrishna-nouluri-767190190/'
   },
 ];
